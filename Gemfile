@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.10'
 gem 'bootstrap-sass', '2.1'
+gem 'bcrypt-ruby', '3.0.1'
 gem 'pg', '0.12.2'
 
 # Bundle edge Rails instead:
@@ -14,6 +15,9 @@ group :development, :test do
   gem 'spork', '0.9.2'
 end
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
