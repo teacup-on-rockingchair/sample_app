@@ -32,7 +32,7 @@ development:
   database: sampleapp-dev
 
 
-test:
+test: &test
   adapter: postgresql
   host: localhost
   username: user
@@ -46,3 +46,5 @@ production:
   username: user
   password: user
   database: sampleapp-prod
+cucumber:
+  <<: *test

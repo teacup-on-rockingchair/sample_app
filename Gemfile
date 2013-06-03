@@ -13,6 +13,8 @@ group :development, :test do
   gem 'guard-rspec', '1.2.1'
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
+  gem 'cucumber-rails', '1.3.0', :require => false
+  gem 'database_cleaner', '~> 1.0.0.RC1'
 end
 
 group :development do
